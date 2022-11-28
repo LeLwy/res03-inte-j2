@@ -23,6 +23,7 @@ body p{
     --black: #000000;
     --white: #ffffff;
     --wheat: #f2f3e8;
+    --gold: #ddac6b;
 
 }
 
@@ -38,6 +39,7 @@ body a{
 
 body > header{
     padding: 4vh 15vw 0 15vw;
+    text-align: right;
 }
 
 body > header > *{
@@ -45,22 +47,21 @@ body > header > *{
 }
 
 body > header > a{
-    position: relative;
+    position: absolute;
+    left: 15vw;
     height: 4vh;
 }
 
 body > header > nav{
     text-align: end;
-    position: relative;
     top: -1.3vh;
-    left: 60%;
 }
 
 body > header > nav > ul > li{
     list-style-type: none;
     width: fit-content;
     display: inline-block;
-    padding-right: 1vw;
+    margin-left: 1vw;
 }
 
 body > header > nav > ul > li > a{
@@ -82,17 +83,27 @@ body > main > section:nth-child(even){
 }
 
 body > main > section > header{
-    padding: 4vh 0;
+    padding: 5vh 0 10vh 0;
+    text-align: right;
+}
+
+body > main > section > header > *{
+    display: inline-block;
 }
 
 body > main > section > header > h2{
+    position: absolute;
+    left: 15vw;
     font-size: 1.9rem;
     font-weight: lighter;
 }
 
+body > main > section > header > h2 > i{
+    margin-right: 1vw;
+    color: var(--gold);
+}
+
 body > main > section > header > a{
-    position: relative;
-    left: 80%;
     font-size: 1.2rem;
     text-decoration: underline;
     color: var(--black);
@@ -118,29 +129,31 @@ body > main > section:first-of-type > h1{
 /*****ARTICLES*****/
 
 body > main > section > article{
-    width: 25vw;
+    width: 21.5vw;
     background-color: var(--white);
+    display: inline-block;
+    margin: 0 .6vw 5vh .6vw;
 }
 
 body > main > section > article > header > img{
-    width: 25vw;
+    width: 21.5vw;
 }
 
 body > main > section > article > header > ul{
-    padding: 1.5vh 0;
+    padding: 1.5vh 1vw;
 }
 
 body > main > section > article > header > ul > li{
     display: inline-block;
-    margin-right: 1.5vw;
+    margin-right: 1.2vw;
 }
 
 body > main > section > article > header > ul > li > i{
-    margin-right: 1vw;
+    margin-right: .5vw;
 }
 
 body > main > section > article > section{
-    padding: 0 1vw;
+    padding: 1vw;
 }
 
 body > main > section > article > section > h3{
@@ -154,46 +167,47 @@ body > main > section > article > section > h3 > a{
     color: var(--black);
 }
 
+body > main > section > article > footer{
+    padding: 1vh 1vw;
+}
+
+body > main > section > article > footer > *{
+    display: inline-block;
+}
+
 body > main > section > article > footer > img{
     width: 5vw;
     border-radius: 50px;
 }
 
-body > main > section > article:nth-child(2){
+body > main > section > article > footer > p{
     position: relative;
-    left: 35vw;
+    bottom: 2vh;
+    left: 1vw;
 }
-
 /*****SECTION-2*****/
 
-body > main > section:nth-child(2){}
+/* body > main > section:nth-child(2){} */
 
-body > main > section:nth-child(2) > header > *{
-    display: inline-block;
-}
-
-body > main > section:nth-child(2) > header{
-
-}
 
 /**********************SECTION-3**********************/
 /**********************Top Authors**********************/
 
-body > main > section:nth-child(3){}
+/* body > main > section:nth-child(3){} */
 
 /**********************SECTION-4**********************/
 /**********************Featured Posts**********************/
 
-body > main > section:nth-child(4){}
+/* body > main > section:nth-child(4){} */
 
 /**********************SECTION-5**********************/
 /**********************Post of the Month**********************/
 
-body > main > section:nth-child(5){}
+/* body > main > section:nth-child(5){} */
 
 /**********************SECTION-6**********************/
 /**********************Subscribe to our monthly newsletter**********************/
 
-body > main > section:last-of-type{}
+/* body > main > section:last-of-type{} */
 
 /******************************FOOTER******************************/
