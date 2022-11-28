@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+body > header{
+    background-color: white;
+    width: 97vw;
+    height: 10vh;
+    margin: auto;
+}
+
+body > header > h1{
+    position: absolute;
+    left: 90vh;
+}
+
+body > main{
+    background-color: white;
+    width: 97vw;
+    height: 75vh;
+    margin: auto;
+}
+
+body > main > section{
+    position: absolute;
+}
+
+body > main > section > article{
+    position: absolute;
+}
+
+body > main > section > article h2{
+    margin-bottom: 2vh;
+}
+
+body > main > section > article p{
+    margin-bottom: 2vh;
+}
+
+body > footer{
+    background-color: white;
+    width: 97vw;
+    height: 15vh;
+    margin: auto;
+}
+
+/**********SECTION 1**********/
+
+section:first-of-type > article:first-of-type{
+    width: 56vw;
+    left: 1vw;
+}
+section:first-of-type > article:last-of-type{
+    width: 38vw;
+    left: 58vw;
+}
+
+/**********SECTION 2**********/
+
+section:last-of-type{
+    top: 52vh;
+}
+
+section:last-of-type > article{
+    width: 31vw;
+    height: 30vh;
+}
+section:last-of-type > article:first-of-type{
+    left: 1vw;
+}
+
+section:last-of-type > article:nth-child(2){
+    left: 33vw;
+}
+
+section:last-of-type > article:last-of-type{
+    left: 65vw;
+}
