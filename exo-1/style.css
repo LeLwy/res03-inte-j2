@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+body > header{
+    width: 97vw;
+    background-color: blue;
+    height: 10vh;
+    margin: auto;
+}
+
+body > main{
+    width: 97vw;
+    background-color: green;
+    height: 75vh;
+    margin: auto;
+}
+
+body > footer{
+    width: 97vw;
+    background-color: red;
+    height: 15vh;
+    margin: auto;
+}
