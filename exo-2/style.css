@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+body > header{
+    width: 97vw;
+    background-color: blue;
+    height: 10vh;
+    margin: auto;
+}
+
+body > main{
+    width: 97vw;
+    background-color: green;
+    height: 75vh;
+    margin: auto;
+}
+
+body > footer{
+    width: 97vw;
+    background-color: red;
+    height: 15vh;
+    margin: auto;
+}
+
+body > main > section:first-of-type{
+    position: relative;
+    top: 20vh;
+    left: 1.5vw;
+    background-color: yellow;
+    width: 30vw;
+    height: 35vh;
+}
+body > main > section:nth-child(2){
+    position: relative;
+    top: -15vh;
+    left: 33.5vw;
+    background-color: yellow;
+    width: 30vw;
+    height: 35vh;
+}
+body > main > section:last-of-type{
+    position: relative;
+    top: -50vh;
+    left: 65.5vw;
+    background-color: yellow;
+    width: 30vw;
+    height: 35vh;
+}
