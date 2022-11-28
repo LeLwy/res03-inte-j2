@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+body > header{
+    width: 97vw;
+    background-color: blue;
+    height: 10vh;
+    margin: auto;
+}
+
+body > main{
+    width: 97vw;
+    background-color: green;
+    height: 75vh;
+    margin: auto;
+}
+
+body > footer{
+    width: 97vw;
+    background-color: red;
+    height: 15vh;
+    margin: auto;
+}
+
+body > main > section{
+    height: 25vh;
+}
+
+body > main > section > article{
+    background-color: yellow;
+    width: 20vw;
+    height: 20vh;
+}
+
+/**********SECTION 1**********/
+
+body > main > section:first-of-type > article:first-of-type{
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+}
+body > main > section:first-of-type > article:nth-child(2){
+    position: absolute;
+    top: 13vh;
+    left: 28vw;
+}
+body > main > section:first-of-type > article:nth-child(3){
+    position: absolute;
+    top: 13vh;
+    left: 51vw;
+}
+body > main > section:first-of-type > article:last-of-type{
+    position: absolute;
+    top: 13vh;
+    left: 74vw;
+}
+
+/**********SECTION 2**********/
+
+body > main > section:nth-child(2) > article:first-of-type{
+    position: absolute;
+    top: 38vh;
+    left: 17vw;
+}
+body > main > section:nth-child(2) > article:nth-child(2){
+    position: absolute;
+    top: 38vh;
+    left: 40vw;
+}
+body > main > section:nth-child(2) > article:last-of-type{
+    position: absolute;
+    top: 38vh;
+    left: 63vw;
+}
+
+/**********SECTION 3**********/
+
+body > main > section:last-of-type > article:first-of-type{
+    position: absolute;
+    top: 63vh;
+    left: 28vw;
+}
+body > main > section:last-of-type > article:last-of-type{
+    position: absolute;
+    top: 63vh;
+    left: 52vw;
+}
